@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  }
+  .picture-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+ 
+  }
+  
+  .picture-container img {
+    height: 150px;
+    margin: auto;
+    border-radius: 10%;
+    object-fit: cover;
+box-shadow: 2px 2px 2px 2px gray;
+  
+  }
+  
+  .edit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+  
+  .edit-button button {
+    background-color: gray;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .profile-name {
+    text-align: center;
+
+  }
+
+  .profile-name {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+
+  .info {
+    margin-top: 30px;
+  }
+
+  .info h2 {
+    color: darkblue;
+    font-weight: bold;
+    border-bottom: 2px solid gray;   
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .info p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #888;
+  }
+  .btns{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btns input{
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: deepskyblue;
+    border: none;
+    border-radius: 10px;
+  }
+  .btns input:hover{
+    background-color: gray;
+    color: whitesmoke;
+  }
+  
+  

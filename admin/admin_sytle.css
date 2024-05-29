@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+
+body::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+}
+.container{
+    width: 100%;
+    background-color: rgb(166, 234, 211);
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+  
+}
+.header{
+    width: 100%;
+   
+  
+    
+}
+.text{
+    display: block;
+    margin-left: 2rem;
+    text-align: center;
+}
+.header img{
+    padding: 1rem;
+    margin: auto;
+    width: 33%;
+    display: block;
+}
+.head {
+    font-size: 2.5rem;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+}
+.admin{
+    margin-top: 5px;
+    font-size: 1.5rem;
+    color: deepskyblue;
+}
+.panel_btn{
+    width: 100%;
+    border: 2px solid red;
+    float: left;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color:azure;
+    
+}
+.user_btn{
+    width: 15rem;
+    height: 2rem;
+    background-color: deepskyblue;
+    color:white;
+    border: none;
+    border-radius: 15px;
+    margin-left: 2rem;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    
+}
+.user_btn:hover, .carpanal:hover{
+    border: 1px solid gray;
+    box-shadow: 2px 2px 3px gray;
+}
+.carpanal{
+    width: 15rem;
+    height: 2rem;
+    background-color: deepskyblue;
+    color:white;
+    border: none;
+    border-radius: 15px;
+    margin-left: 2rem;
+    font-size: 20px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.datacontainer table,.admin_container table{    
+    border: 1px solid red;
+    width:90%;
+    margin: auto;
+    text-align: center;
+    background-color: beige;
+} 
+.datacontainer tr, .admin_container tr{
+height: 2rem;    
+font-size: 1rem;
+width:20px ;
+}
+.admin_container{
+    margin-bottom: 2rem;
+}
+.image_ofuser{
+    background-color: black;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}

@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,900&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+
+
+/* this is all for footer section  */
+.footer {
+  bottom: 0;
+  width: 100%;
+  border-top: 4px solid gray;
+  overflow: auto;
+  align-items: stretch;
+
+}
+
+.footercontainer {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  background-color: rgb(208, 235, 235);
+  ;
+
+}
+
+.footlogo {
+  border-right: 2px solid gray;
+}
+
+.footlogo img {
+  padding-top: 10px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 15rem;
+  display: block;
+
+}
+
+.footmenu {
+  display: block;
+  border-right: 2px solid gray;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.footmenu li {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.footmenu li a {
+  text-decoration: none;
+}
+
+.footmenu li a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+.aboutus {
+  display: block;
+  width: 30rem;
+  /* border: 2px solid red; */
+  /* border-right: 2px solid gray; */
+  padding-left: 2rem;
+  text-align: center;
+
+}
+
+.aboutus h2 {
+  color: purple;
+  text-decoration: underline;
+}
+
+.aboutus p {
+  text-align: justify;
+  padding: 1rem;
+  text-decoration: none;
+  color: darkblue;
+}
+
+.footerbottom {
+  width: 100%;
+  display: inline-block;
+  background-color: blue;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-size: 1rem;
+
+}
+
+@media (max-width:760px) {
+  .footmenu {
+    display: none;
+
+  }
+
+}
+
+@media (max-width:590px) {
+  .footlogo {
+    display: none;
+  }
+}
+/* this is for car container */
+.imgcontain {
+  background-color: white;
+  width: 100%;
+  height: 60%;
+  border-bottom: 3px solid blueviolet;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+.textcontiner {
+  background-color: deepskyblue;
+  color: white;
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  border-radius: 0px 0px 7px 7px;
+
+
+}
+
+.textcontiner p {
+  padding-top: 5px;
+}
+
+/* this contain the detailas of card */
+
+.carname {
+  color: darkblue;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.cardetails {
+  text-align: justify;
+  font-size: 1rem;
+  color: white;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.carprice::before {
+  content: 'Rs.';
+  font-weight: bold;
+}
+
+.carprice::after {
+  content: '/-';
+  font-weight: bold;
+}
+
+.carprice {
+  font-size: 1rem;
+
+  display: inline-block;
+  padding: 3px;
+}
+
+.carlocation {
+  font-size: 1rem;
+  display: inline-block;
+  margin-left: 2rem;
+  padding: 6px;
+
+}
+/* this contain the card and its box */
+.item {
+  display: flexbox;
+  display: inline-block;
+  justify-content: space-around;
+  width: 17rem;
+  
+  align-content: center;
+  align-items: center;
+  vertical-align: middle;
+  border-radius: 2px 2px 8px 8px;
+  /* box-shadow: 2px 2px 4px gray; */
+  border: 2px inset darkgray;
+  margin: 30px 40px 12px 25px;
+  justify-content: center;
+  height: 20rem;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  cursor: pointer;
+  /* background-color: red; */
+
+}
+
+/* this is a hover style for each of car and its details */
+.item:hover {
+  box-shadow: 4px 3px 6px gray;
+  border: 2px solid gray;
+  border: 0px;
+}
+
+/* this is a image of car */
+.img {
+
+  width: 270px;
+  height: 200px;
+}
+/* this is a container for car which contain each car detailas */
+.container {
+
+  width: 98%;
+  align-self: center;
+   margin: auto;
+  padding-left: 2rem;
+  
+
+}
+
